@@ -130,7 +130,7 @@ To run a solution:
 1. Navigate to the problem directory.
 2. Launch the marimo notebook:
    ```bash
-   marimo run solution.py
+   marimo new
    ```
    This opens the notebook in your browser for interactive use.
 
