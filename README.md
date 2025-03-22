@@ -7,6 +7,7 @@ This repository contains my solutions to problems from [deep-ml.com](https://www
 ## Table of Contents
 
 - [Installation](#installation)
+- [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Topics](#topics)
 - [Running Solutions Locally](#running-solutions-locally)
@@ -45,6 +46,51 @@ To set up this project, you’ll need Python installed. We use [Poetry](https://
    ```bash
    poetry add marimo
    ```
+
+---
+
+## Project Structure
+
+Here’s the directory layout of the repository:
+
+```
+deep-ml-solutions/
+├── Linear_Algebra/
+│   ├── Problem_1/
+│   │   ├── data/           # Input data for the problem (if needed)
+│   │   ├── solution.py     # Marimo notebook with the solution
+│   │   └── README.md       # Problem description and run instructions
+│   └── Problem_2/
+│       ├── data/
+│       ├── solution.py
+│       └── README.md
+├── Machine_Learning_Fundamentals/
+│   ├── Problem_1/
+│   │   ├── data/
+│   │   ├── solution.py
+│   │   └── README.md
+│   └── Problem_2/
+│       ├── data/
+│       ├── solution.py
+│       └── README.md
+├── Deep_Neural_Networks/
+│   └── ...                 # Similar structure for each problem
+├── Computer_Vision/
+│   └── ...                 # Similar structure for each problem
+├── Natural_Language_Processing/
+│   └── ...                 # Similar structure for each problem
+├── utils/                  # Shared utilities or helper functions (optional)
+│   └── helpers.py
+├── .gitignore              # Git ignore file
+├── LICENSE                 # MIT License file
+├── pyproject.toml          # Poetry config for dependencies
+├── poetry.lock             # Locked dependency versions
+└── README.md               # This file
+```
+
+- **Topic Directories**: Each top-level folder (e.g., `Linear_Algebra`) corresponds to a deep-ml.com category.
+- **Problem Subdirectories**: Within each topic, problems are numbered (e.g., `Problem_1`), each with its own `solution.py`, `data/` folder, and `README.md`.
+- **Utils**: An optional folder for shared code across solutions.
 
 ---
 
