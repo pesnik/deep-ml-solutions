@@ -1,0 +1,20 @@
+[project]
+name = "deep-ml-solutions"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "pesnik",email = "hasanrakibul.masum@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy (>=1.26.0,<2.2.0)",
+    "tensorflow (>=2.19.0,<3.0.0)",
+    "marimo (>=0.11.25,<0.12.0)",
+    "pandas (>=2.2.3,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
